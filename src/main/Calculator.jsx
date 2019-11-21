@@ -31,7 +31,7 @@ export default class Calculator extends Component {
 
         return (
             <div className="calculator">
-                <Display value="12345"/>
+                <Display value="0"/>
                 <ButtonsPad 
                     addDigit={this.addDigit}
                     clearMemory={this.clearMemory} 
