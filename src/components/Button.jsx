@@ -3,7 +3,6 @@ import './Button.css'
 
 export default props => {
     let classes = `button ${props.styleClasses ? props.styleClasses : ''}`
-    console.log(classes)
 
     return (
         <button 
