@@ -4,7 +4,7 @@
 }
 
 .button {
-    font-size: 1.em;
+    font-size: 1.3em;
     background-color: var(--bg-button);
     border: none;
     border-right: var(--border-button);
@@ -29,6 +29,6 @@
     color: #fff
 }
 
-.button.operation.active {
-    background-color: #d35400;
+.button.operation:active {
+    background-color: #e67e22cc;
 }
