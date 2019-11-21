@@ -3,6 +3,7 @@ import './Calculator.css'
 
 import ButtonsPad from '../components/ButtonsPad'
 import Display from '../components/Display'
+import ColorsMenu from '../components/ColorsMenu'
 
 const initialState = {
     displayValue: '0',
@@ -102,9 +103,6 @@ export default class Calculator extends Component {
 
 
     render() {
-        const addDigit = n => this.addDigit(n)
-        const setOperation = op => this.setOperation(op)
-
         return (
             <div className="calculator">
                 <Display value={this.state.displayValue}/>
@@ -113,6 +111,7 @@ export default class Calculator extends Component {
                     clearMemory={this.clearMemory} 
                     setOperation={this.setOperation}
                 />
+                <ColorsMenu />
             </div>
         )
     }

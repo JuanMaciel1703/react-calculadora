@@ -1,11 +1,15 @@
 :root {
-    --bg-button: #f0f0f0;
+    --digit-button-bg-color: #f0f0f0;
+    --digit-button-font-color: #000;
+    --operation-button-bg-color: #e67e22;
+    --operation-button-font-color: #fff; 
     --border-button: solid 1px #888;
 }
 
 .button {
     font-size: 1.3em;
-    background-color: var(--bg-button);
+    background-color: var(--digit-button-bg-color);
+    color: var(--digit-button-font-color);
     border: none;
     border-right: var(--border-button);
     border-bottom: var(--border-button);
@@ -25,8 +29,8 @@
 }
 
 .button.operation {
-    background-color: #e67e22;
-    color: #fff
+    background-color: var(--operation-button-bg-color);
+    color: var(--operation-button-font-color)
 }
 
 .button.operation:active {

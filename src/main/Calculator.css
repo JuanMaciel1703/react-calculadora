@@ -1,7 +1,10 @@
+:root {
+    --calculator-bg-color: #34495e;
+}
+
 .calculator {
     height: 309px;
     width: 235px;
     border-radius: 5px;
-    overflow: hidden;
-    background-color: #34495e;
+    background-color: var(--calculator-bg-color);
 }
